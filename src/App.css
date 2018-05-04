@@ -8,9 +8,9 @@
 }
 
 .Header {
-  background-color: #fffc00;
+  background-color: #26cfb9;
   padding: 150px;
-  height: 200px;
+  height: 150px;
   border-radius: 10px;
   font-family: HelveticaNeue;
   text-align: center;
@@ -28,6 +28,11 @@
   background-color: #f9f9f9;
 }
 
+.Overview {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .TargetUsersCards {
   display: flex;
 }
@@ -35,7 +40,9 @@
   background-color: #ffffff;
   border-radius: 10px;
   flex: 1 1 50%;
-  padding: 10px;
+  padding: 20px;
+  padding-bottom: 50px;
+  padding-left: 30px;
   margin: 30px;
   height: 100px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -53,4 +60,8 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+h2, h3 {
+  text-align: center;
 }

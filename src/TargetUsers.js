@@ -4,13 +4,21 @@ export default class TargetUsers extends Component {
     render() {
         return (
             <div className="TargetUsers">
-                <p>Target Users</p>
+                <h2>Target Users</h2>
                 <div className="TargetUsersCards">
-                    <div className="Chef">
-                        <p>Chef</p>
-                    </div>
                     <div className="Eater">
-                        <p>Eater</p>
+                        <h3>Eater</h3>
+                        <ul>
+                            <li> Explore diverse cuisine through local homemade meals </li>
+                            <li> Enjoy food made with love either to-go or for-here </li>
+                        </ul>
+                    </div>
+                    <div className="Chef">
+                        <h3>Chef</h3>
+                        <ul>
+                            <li> Make money while working on your own time </li>
+                            <li> Share your passion for food with people in your local community </li>
+                        </ul>
                     </div>
                 </div>
             </div>

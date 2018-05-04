@@ -12,7 +12,6 @@ class App extends Component {
         <Header />
         <Overview />
         <TargetUsers />
-        <Solution />
       </div>
     );
   }

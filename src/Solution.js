@@ -4,7 +4,7 @@ export default class Solution extends Component {
     render() {
         return (
             <div className="Solution">
-                <p>Benefits to our solution</p>
+                <h2>Benefits to our solution</h2>
             </div>
         );
     }
